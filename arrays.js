@@ -44,7 +44,7 @@ let answers = [];
 for (i = 0; i < bigOrSmallArray.length; i++) {
 	if (bigOrSmallArray[i] > 100) {
 		answers.push(`${bigOrSmallArray[i]} is big`);
-	} else {
+	} else if (bigOrSmallArray[i]) {
 		answers.push(`${bigOrSmallArray[i]} is small`);
 	}
 	//console.log(answers);

@@ -33,3 +33,36 @@ if (password.length < 10) {
 //It has both Uppercase & Lowercase letters
 //It has no Spaces
 //It is not longer than 50 characters
+
+//Assessment Review Answer
+let password2 = "abc123";
+
+//checks variable to make sure requirements are met
+let minChars = false;
+let upperCheck = false;
+let numCheck = false;
+let letterCheck = false;
+
+for (let i = 0; i < password2.length; i++) {
+	//console.log(password[i] * 2);
+	console.log(typeof (+password2[i] * 2));
+	if (password2[i] !== NaN) {
+		numCheck = true;
+	}
+	if (password2[i] === password[i].toUpperCase()) {
+		upperCheck = true;
+	}
+}
+
+//check that the password has a letter
+if (/[a-zA-Z].test(password2)/) {
+	letterCheck = true;
+}
+//check that password meets minimum characters
+if (password.length >= 10) {
+	minChars = true;
+}
+
+console.log(minChars);
+
+//password[i] * 2 will help you determine if a string has a number in it

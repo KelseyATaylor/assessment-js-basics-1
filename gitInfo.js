@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "A version control system.";
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,8 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition =
+	"A website that will host Git projects. You can push Git projects to GitHub to both save it and share it with others.";
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +27,7 @@
 */
 
 //CODE HERE
-
+let gitInitDefinition = "Initializes your project with git.";
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +35,7 @@
 */
 
 //CODE HERE
-
+let gitCloneDefinition = "Clone will copy a repository and put in on my computer.";
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +43,7 @@
 */
 
 //CODE HERE
-
+let gitStatusDefinition = "Tells me about the repository that I'm currently in.";
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,7 +54,9 @@
 */
 
 //CODE HERE
+let gitAddDefinition = "Git add is the first step toward committing your code, it adds everything at the level you're in.";
 
+let gitAddCode = "git add .";
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,8 +67,9 @@
 */
 
 //CODE HERE
+let gitCommitDefinition = "git commit will save or commit the changes that you've made to your code.";
 
-
+let gitCommitCode = "git commit -m 'text here'";
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
@@ -73,3 +77,4 @@
 */
 
 //CODE HERE
+let gitPushDefinition = "Git push is the final step to puch your git project to GitHub.";
